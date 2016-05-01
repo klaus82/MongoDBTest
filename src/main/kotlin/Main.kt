@@ -6,6 +6,7 @@ import java.util.*
 
 /**
  * Created by Claudio on 01/05/16.
+ * This is a main to test mongoDB connection in kotlin
  */
 
 fun main(args: Array<String>) {
