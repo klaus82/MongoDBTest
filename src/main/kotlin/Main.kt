@@ -19,6 +19,11 @@ fun main(args: Array<String>) {
 
         val table = db.getCollection("person")
 
+        //Reflection example
+        val person = Person("Jon","Doe",20);
+
+        val data = person.javaClass;
+
 
         //Insert document
         val document = BasicDBObject()
